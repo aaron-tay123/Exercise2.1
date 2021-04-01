@@ -1,0 +1,20 @@
+package Exercise2;
+
+public class Tablets1 {
+	String Brand = "Samsung";
+	String Type = "Samsung Galaxy Tab A7";
+	String Memory = "32GB+3GB" ;
+	String Colour = "Silver";
+	
+	void watchYoutube() {
+		System.out.println("Watching the movie.");
+	}
+	
+	void takePicture() {
+		System.out.println("Taking the beautiful photo.");
+	}
+	
+	void receiveNotification() {
+		System.out.println("See the message.");
+	}
+}
