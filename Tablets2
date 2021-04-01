@@ -1,0 +1,20 @@
+package Exercise2;
+
+public class Tablets2 {
+	String Brand = "Huawei";
+	String Type  = "Huawei MatePad 10.4";
+	String Memory= "4GB+128GB";
+	String Colour= "Midnight Grey";
+	
+	void watchYoutube() {
+		System.out.println("Watching the movie.");
+	}
+	
+	void takePicture() {
+		System.out.println("Taking the beautiful photo.");
+	}
+	
+	void recieveNotification() {
+		System.out.println("See the message.");
+	}
+}
