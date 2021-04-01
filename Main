@@ -1,0 +1,27 @@
+package Exercise2;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Tablets1 Samsung = new Tablets1 (); //create new object name as a
+		System.out.println("Brand: " +Samsung.Brand);
+		System.out.println("Type:  " +Samsung.Type);
+		System.out.println("Memory:" +Samsung.Memory);
+		System.out.println("Colour:" +Samsung.Colour);
+		Samsung.watchYoutube();
+		Samsung.takePicture();
+		Samsung.receiveNotification();
+		
+		System.out.println("............................");
+		
+		Tablets2 Huawei = new Tablets2(); //create new object name as b
+		System.out.println("Brand: " +Huawei.Brand);
+		System.out.println("Type:  " +Huawei.Type);
+		System.out.println("Memory:" +Huawei.Memory);
+		System.out.println("Colour:" +Huawei.Colour);
+		Huawei.watchYoutube();
+		Huawei.takePicture();
+		Huawei.recieveNotification();
+		
+	}
+}
